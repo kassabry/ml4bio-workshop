@@ -274,7 +274,7 @@ Smaller values of C mean stronger regularization (higher penalties, therefore lo
 
 #### L1 regularization
 
-L1 regularization is also known as Lasso reguralization.
+L1 regularization is also known as Lasso regularization.
 
 Recall that $x_1, x_2, ..., x_n$ are the features, and $w_0, w_1, ..., w_n$ are the feature weights.
 Without regularization, the classifier might fit the training data perfectly, giving certain values to each weight that would lead to overfitting. 
@@ -286,8 +286,8 @@ The corresponding features are then not used at all to make predictions on new d
 
 #### L2 Penalty
 
-L2 regularization is also known as ridge reguralization.
-L2 reguralization makes the weights of less important features to be small values.
+L2 regularization is also known as ridge regularization.
+L2 regularization makes the weights of less important features to be small values.
 Unlike L1 regularization, L2 regularization does not necessarily shrink the weights to 0.
 The higher the value of C, the smaller the feature weights will be.
 
